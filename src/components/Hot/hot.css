@@ -1,0 +1,32 @@
+.hot-section{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hot-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid bisque ;
+  padding-bottom: 1em;
+}
+
+.hot-title {
+  border: 1px solid bisque ; 
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 1.5em;
+}
+
+.hot-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-header-right{
+  border: 1px solid bisque ; 
+  display: flex;
+  flex-direction: column-reverse;
+}

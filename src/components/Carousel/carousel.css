@@ -1,0 +1,24 @@
+.carousel-section{
+  border: 1px solid bisque ;
+  width: 100%;
+  margin-bottom: 3em;
+  height: 350px;
+  display: flex;
+}
+
+.carousel-box{
+  display: flex;
+  background-color: antiquewhite;
+  height: 350px;
+  max-height: 350px;
+  width: 800px;
+  max-width: 500px;
+  color: black;
+}
+
+.carousel-image {
+  max-height: 350px;
+  max-width: 500px;
+}
+
+tns

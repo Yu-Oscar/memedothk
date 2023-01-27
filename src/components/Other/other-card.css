@@ -1,0 +1,21 @@
+.other-box{
+  width: 20%;
+  border: 1px solid bisque ; 
+}
+
+.image-box{
+  border: 1px solid blue ; 
+  background-color: rgb(5, 5, 11);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  max-height: 207px;
+}
+
+.image{
+  display: flex;
+  max-width: 100%;
+  height: inherit;
+  object-fit: contain;
+}

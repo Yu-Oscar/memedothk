@@ -1,0 +1,22 @@
+.tags-card-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag{
+  border: 1px solid bisque ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-overflow: clip;
+  overflow: hidden;
+  padding: 0%;  
+  width: 12.5%;
+}
+
+.tag h2 {
+  color: cadetblue;
+  margin: 0%;
+}

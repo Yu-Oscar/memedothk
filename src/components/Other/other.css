@@ -1,0 +1,26 @@
+.other-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.other-header{
+  border: 1px solid bisque ; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.other-header-right{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.other-card-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
